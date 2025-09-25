@@ -13,7 +13,6 @@ export default function CalculadoraScreen() {
       <Input label="Resultado:" placeholder="C" editable="false" />
 
       <Button title="Calcular" color="#000c79ff" />
-      <br />
       <Button title="Ir a Lista" onPress={() => navigation.navigate('Todo')}  />
 
     </View>
