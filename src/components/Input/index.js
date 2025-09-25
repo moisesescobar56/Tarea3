@@ -13,7 +13,7 @@ export default function Input({ label, placeholder, type = "default", editable =
                 placeholderTextColor="#999"
                 multiline={ lines > 1? true : false }
                 numberOfLines= {lines}
-                
+                textAlignVertical="top"
              />
         </View>
     );

@@ -17,7 +17,7 @@ const styles = StyleSheet.create({
     control:{
         width: "100%",
         fontSize: 16,
-        height: 35,
+        height: 45,
         borderColor: "#999",
         borderStyle: "solid",
         borderWidth: 1,

@@ -10,9 +10,10 @@ export default function CalculadoraScreen() {
     <View style={styles.container}>
       <Input label="Numero 1:" placeholder="A" type="numeric" />
       <Input label="Numero 2:" placeholder="B" type="numeric" />
-      <Input label="Resultado:" placeholder="C" editable="false" />
-
-      <Button title="Calcular" color="#000c79ff" />
+      <Input label="Resultado:" placeholder="C" editable={false} />
+      <View style={{marginBottom: 5 }}>
+        <Button title="Calcular" color="#000c79ff" />
+      </View>
       <Button title="Ir a Lista" onPress={() => navigation.navigate('Todo')}  />
 
     </View>
