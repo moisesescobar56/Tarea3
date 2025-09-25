@@ -1,7 +1,7 @@
+import { useColorScheme } from 'react-native';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import { HomeScreen, ContactoScreen } from '../screens';
 import MainTabs from './MainTabs';
-import { useColorScheme } from 'react-native';
 
 
 const Drawer = createDrawerNavigator();

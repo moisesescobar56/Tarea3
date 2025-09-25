@@ -6,7 +6,7 @@ export default function HomeScreen() {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title} >Inicio</Text>
+      <Text style={styles.title} >Inicio!</Text>
       
       <Button title="Ir a Contacto" onPress={() => navigation.navigate('Contacto')}  />
 
