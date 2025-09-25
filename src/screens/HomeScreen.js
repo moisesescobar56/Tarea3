@@ -8,7 +8,6 @@ export default function HomeScreen() {
     <View style={styles.container}>
       <Text style={styles.title} >Inicio</Text>
       
-      <br />
       <Button title="Ir a Contacto" onPress={() => navigation.navigate('Contacto')}  />
 
     </View>
