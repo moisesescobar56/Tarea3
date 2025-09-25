@@ -17,7 +17,6 @@ export default function ContactoScreen() {
       <Input label="Mensaje:" placeholder="Escribir aqui..." lines={4}/>
 
       <Button title="Enviar" color="#000c79ff" />
-      <br />
       <Button title="Ir a inicio" onPress={() => navigation.navigate('Inicio')}  />
 
     </View>
